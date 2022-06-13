@@ -125,7 +125,7 @@ footer .footerMobile {
   footer .footerP {
     display: none; }
   .header-container {
-    background-image: url(/assets/BackgroundMobile.JPG); }
+    background-image: url(../assets/BackgroundMobile.JPG); }
   .mainContenedor .mainRow .mainDiv #cajaformulario {
     width: 350px;
     margin-left: 2px;
