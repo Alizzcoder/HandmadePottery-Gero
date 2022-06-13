@@ -1,15 +1,14 @@
-#galeria .col-lg-3{
+.galeria .col-lg-3{
     margin:0;
     padding: 8px;
-    .galeriaImg{
-        .imagen{
-            width: 100%;
-            align-items: center;
-                &:hover{
-                transform: scale(1.2);
-                transition: 0.3s;
+         .galeriaImg{
+            .imagen{
+                width: 100%;
+                align-items: center;
+                    &:hover{
+                    transform: scale(1.2);
+                    transition: 0.3s;
+                    }
                 }
-                       
-        }
-    }
-}
+          }
+ }
