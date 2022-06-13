@@ -1,0 +1,32 @@
+.mainContenedor{
+    .mainRow{
+        .mainDiv{
+            #cajaformulario{
+                width: 440px;
+                height: 500px;
+                margin-left: 2rem;
+                margin-top: 10px;
+                border-radius: 2%;
+                border-color: $textonavlinks;
+                background-color:$bg-formulario;
+                padding: 30px;
+                flex-wrap: wrap;
+                    button{
+                        margin-top: 5px;
+                        background-color: rgb(122, 89, 122);
+                        border-color: black;
+                        flex-wrap: wrap;
+                    }
+            }
+        }
+        .mainImg{
+            .imagenContact{
+                width: 440x;
+                height: 500px;
+                padding: 0px;
+                margin-top: 2.5rem;
+                flex-wrap: wrap;
+              }
+        }
+    }
+}

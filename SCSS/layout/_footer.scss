@@ -1,0 +1,34 @@
+footer{
+    .footerP{
+        display: flex; 
+        justify-content: space-around; 
+        margin: 0px;
+        padding: 0px;
+        padding-top: 1rem;
+        background-image: $bg-footer;
+            .pie__sub{
+                width: 20rem;
+                height: 20rem;
+                padding: 10px;
+                margin-right: 10px;   
+                ul{
+                    .pie__menu{
+                        list-style-type: none;
+                        margin-left: 5px;
+                        margin-top: 15px; 
+                            a{
+                               text-decoration: none; 
+                               color: $textonavlinks;
+                                &:hover{
+                                    color:$textonavbar; 
+                                }
+                            }
+                    }
+                }
+            }
+    }
+    .footerMobile{
+        display: flex; 
+        justify-content: space-around;
+    }
+}
