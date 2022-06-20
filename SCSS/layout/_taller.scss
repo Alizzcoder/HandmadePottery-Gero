@@ -1,5 +1,4 @@
 .imagenTaller{
-    width: 650px;
-    height: 450px;
+    @include sizeImg(650px, 450px);
     margin-right: 30px;
 }

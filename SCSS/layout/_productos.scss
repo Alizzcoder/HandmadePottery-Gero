@@ -1,14 +1,16 @@
-.galeria .col-lg-3{
-    margin:0;
-    padding: 8px;
-         .galeriaImg{
+.galeria{
+    .subHeader{
+      margin-left: 4.5rem;
+    }   
+    .container{
+        .row{
             .imagen{
-                width: 100%;
-                align-items: center;
-                    &:hover{
-                    transform: scale(1.2);
+                &:hover{
+                    transform: scale(1.1);
                     transition: 0.3s;
                     }
-                }
-          }
+            }      
+         }
+    }        
  }
+ 

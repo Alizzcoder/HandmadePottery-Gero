@@ -84,8 +84,16 @@
                     }
                 }
             }
+            .mainImg{
+                .imagenContact{
+                    @include sizeImg(320px, 320px);
+                    
+                  }
+            }
         }
     
     }
-
+    .imagenTaller{
+        @include sizeImg(320px, 320px);
+    }
 }
