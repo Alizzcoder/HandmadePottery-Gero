@@ -64,29 +64,29 @@
     }
 }
 
-
- @media only screen and (max-width:350px){
+@media only screen and (max-width:428px){
     .mainContenedor{
         .mainRow{
             .mainDiv{
                 #cajaformulario{
-                    width: 250px;
+                    width: 360px;
                     margin-left:2px;
                     margin-top: 10px;
                     font-size: 15px;
                     padding: 10px;
                     flex-wrap: wrap;
                     .form{
-                        width: 250px;
+                        width: 360px;
                     }
                     textarea{
-                        width: 210px;
+                        width: 340px;
                     }
                 }
             }
             .mainImg{
                 .imagenContact{
-                    @include sizeImg(320px, 320px);
+                    @include sizeImg(370px, 370px);
+                    margin-right: 2px;
                     
                   }
             }
@@ -94,6 +94,41 @@
     
     }
     .imagenTaller{
-        @include sizeImg(320px, 320px);
+        @include sizeImg(400px, 300px);
+        margin: 0px;
+    }
+}
+
+ @media only screen and (max-width:376px){
+    .mainContenedor{
+        .mainRow{
+            .mainDiv{
+                #cajaformulario{
+                    width: 300px;
+                    margin-left:2px;
+                    margin-top: 10px;
+                    font-size: 15px;
+                    padding: 10px;
+                    flex-wrap: wrap;
+                    .form{
+                        width: 300px;
+                    }
+                    textarea{
+                        width: 280px;
+                    }
+                }
+            }
+            .mainImg{
+                .imagenContact{
+                    @include sizeImg(320px, 320px);
+                    margin-right: 2px;
+                    
+                  }
+            }
+        }
+    
+    }
+    .imagenTaller{
+        @include sizeImg(320px, 220px);
     }
 }

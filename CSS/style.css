@@ -33,7 +33,8 @@ footer .footerP {
   margin: 0px;
   padding: 0px;
   padding-top: 1rem;
-  background-image: linear-gradient(270deg, #ffffff 0, #f8f7f8 25%, #e8e2e8 50%, #d7ced9 75%, #c9bdce 100%); }
+  background-image: linear-gradient(270deg, #ffffff 0, #f8f7f8 25%, #e8e2e8 50%, #d7ced9 75%, #c9bdce 100%);
+  width: 100%; }
   footer .footerP .pie__sub {
     width: 20rem;
     height: 20rem;
@@ -51,7 +52,8 @@ footer .footerP {
 
 footer .footerMobile {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-bottom: 15px; }
 
 .hcontainer .navbar .container-fluid .navbar-brand {
   animation-name: animation;
@@ -94,7 +96,7 @@ footer .footerMobile {
     font-weight: bold; }
 
 .mainContenedor .mainImg .imagenContact {
-  width: 500px;
+  width: 770px;
   height: 500px;
   padding: 0px;
   margin-top: 2.5rem; }
@@ -135,21 +137,43 @@ footer .footerMobile {
     .mainContenedor .mainRow .mainDiv #cajaformulario textarea {
       width: 300px; } }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 428px) {
   .mainContenedor .mainRow .mainDiv #cajaformulario {
-    width: 250px;
+    width: 360px;
     margin-left: 2px;
     margin-top: 10px;
     font-size: 15px;
     padding: 10px;
     flex-wrap: wrap; }
     .mainContenedor .mainRow .mainDiv #cajaformulario .form {
-      width: 250px; }
+      width: 360px; }
     .mainContenedor .mainRow .mainDiv #cajaformulario textarea {
-      width: 210px; }
+      width: 340px; }
+  .mainContenedor .mainRow .mainImg .imagenContact {
+    width: 370px;
+    height: 370px;
+    margin-right: 2px; }
+  .imagenTaller {
+    width: 400px;
+    height: 300px;
+    margin: 0px; } }
+
+@media only screen and (max-width: 376px) {
+  .mainContenedor .mainRow .mainDiv #cajaformulario {
+    width: 300px;
+    margin-left: 2px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px;
+    flex-wrap: wrap; }
+    .mainContenedor .mainRow .mainDiv #cajaformulario .form {
+      width: 300px; }
+    .mainContenedor .mainRow .mainDiv #cajaformulario textarea {
+      width: 280px; }
   .mainContenedor .mainRow .mainImg .imagenContact {
     width: 320px;
-    height: 320px; }
+    height: 320px;
+    margin-right: 2px; }
   .imagenTaller {
     width: 320px;
-    height: 320px; } }
+    height: 220px; } }

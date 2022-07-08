@@ -6,6 +6,7 @@ footer{
         padding: 0px;
         padding-top: 1rem;
         background-image: $bg-footer;
+        width: 100%;
             .pie__sub{
                 width: 20rem;
                 height: 20rem;
@@ -30,6 +31,7 @@ footer{
     .footerMobile{
         display: flex; 
         justify-content: space-around;
+        margin-bottom: 15px;
     }
     
 }

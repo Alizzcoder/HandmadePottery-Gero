@@ -10,8 +10,8 @@
     <link rel="icon" href="assets/favicon.ico">
    <!-- CSS only - Animated - Bootstrap - Swiffy y Fonts -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
     <header class="header-container mb-3">
         <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container-fluid">
-              <a class="navbar-brand ms-3 ms-lg-5 ms-md-5 mt-lg-5 mt-md-3 ps-lg-5 ps-md-3" href="index.html">HANDMADE POTTERY</a>
+              <h1 class="navbar-brand ms-3 ms-lg-5 ms-md-5 mt-lg-5 mt-md-3 ps-lg-5 ps-md-3" href="index.html">HANDMADE POTTERY</h1>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -40,51 +40,55 @@
     </header>   
     
     <main class="main-container">
-        <div class="swiffy-slider slider-item-show4 slider-item-ratio-32x9 slider-item-nosnap slider-item-reveal slider-nav-round slider-nav-visible slider-indicators-round slider-indicators-highlight slider-nav-animation slider-nav-animation-scale">
-            <ul class="slider-container text-center text-md-center">
+         <div class="swiffy-slider slider-item-show3 slider-item-ratio-1x1 slider-nav-round slider-nav-visible slider-indicators-round slider-indicators-highlight slider-nav-animation slider-nav-animation-turn mb-2">
+            <ul class="slider-container">
                 <li class="slide-visible">
-                    <div id="slide1"><img src="assets/TazaDesayuno.JPG" alt="" srcset=""></div>
+                    <div id="slide1"><img class="img-fluid" src="assets/FloreroDona.JPG" alt="Florero dona" srcset=""></div>
                 </li>
                 <li class="slide-visible">
-                    <div id="slide2"><img src="assets/Tazas.JPG" alt="" srcset=""></div>
+                    <div id="slide2"><img class="img-fluid" src="assets/MugsCafe.JPG" alt="Mugs café" srcset=""></div>
                 </li>
                 <li class="slide-visible">
-                    <div id="slide3"><img src="assets/TazaGres.JPG" alt="" srcset=""></div>
+                    <div id="slide3"><img class="img-fluid" src="assets/Platos-blancos.JPG" alt="Platos blancos" srcset=""></div>
                 </li>
                 <li class="slide-visible">
-                    <div id="slide4"><img src="assets/TazaGris.JPG" alt="" srcset=""></div>
-                </li>
-                <li class="slide-visible">
-                    <div id="slide5"><img src="assets/ComboTazas.JPG" alt="" srcset=""></div>
+                    <div id="slide4"><img class="img-fluid" src="assets/JarronRedondo.JPG" alt="Jarrón redondo" srcset=""></div>
                 </li>
                 <li class="">
-                    <div id="slide6"><img src="assets/Jarritos.JPG" alt="" srcset=""></div>
+                    <div id="slide5"><img class="img-fluid" src="assets/jarrones-minimalistas.jpg" alt="Jarrones minimalistas" srcset=""></div>
                 </li>
                 <li class="">
-                    <div id="slide7"><img src="assets/Platos.JPG" alt="" srcset=""></div>
+                    <div id="slide6"><img class="img-fluid" src="assets/TazasBlancoNegro.jpg" alt="Tazas blanco y negro" srcset=""></div>
                 </li>
                 <li class="">
-                    <div id="slide8"><img src="assets/Colador.JPG" alt="" srcset=""></div>
-                </li>                
+                    <div id="slide7"><img class="img-fluid" src="assets/Jarronytazasrosado.jpg" alt="Jarron y tazas" srcset=""></div>
+                </li>
+                <li class="">
+                    <div id="slide8"><img class="img-fluid" src="assets/Tallerjarrones.jpg" alt="Floreros" srcset=""></div>
+                </li>
+                <li class="">
+                    <div id="slide9"><img class="img-fluid" src="assets/Tazablanca.jpg" alt="Taza blanca" srcset=""></div>
+                </li>
             </ul>
-                    
+        
             <button type="button" class="slider-nav"></button>
             <button type="button" class="slider-nav slider-nav-next"></button>
         
             <ul class="slider-indicators">
                 <li class=""></li>
+                <li class=""></li>
+                <li></li>
+                <li class=""></li>
+                <li class=""></li>
+                <li class=""></li>
                 <li></li>
                 <li class="active"></li>
                 <li class=""></li>
-                <li></li>
-                <li class=""></li>
-                <li class=""></li>
-                <li></li>
-                <li class=""></li>
             </ul>
-        </div> 
-        <div class=" container-fluid mt-lg-3 mt-md-1 me-0 p-0">
-            <img src="./assets/PlatosColoridos.jpg" alt="Pltaos coloridos" srcset="">
+        </div>
+        
+        <div class="container-fluid p-0 mt-lg-3 mt-md-1 mt-sm-2  fotoMedia">
+            <img class="img-fluid w-100" src="./assets/PlatosColoridos.jpg" alt="Platos coloridos" srcset="">
         </div>  
     </main>
     <footer Class=" container-fluid m-0 me-0 p-0 pe-0 pt-2"><!--Pie de página con listado de menú, dirección, mail, redes y opción de suscripción a Newletter-->
@@ -116,7 +120,7 @@
                      <h5>NEWSLETTER</h5>
                         <label for="email">Email</label>
                         <input type="email" name="email" id="">
-                        <button type="button" class="btn btn-dark">ENVIAR</button>
+                        <button type="button" class="btn btn-dark mt-1">ENVIAR</button>
                     </form>
             </div>
        </div>
@@ -129,6 +133,5 @@
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
 </body>
 </html>
